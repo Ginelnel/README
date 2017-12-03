@@ -1,0 +1,63 @@
+body {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav  li hover {
+    color: #ffaacc !important;
+}
+
+.allogenic {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+footer {
+    color: white;
+    padding: 15px;
+    letter-spacing: 5px;
+}
+
+.main1 {
+	padding-top: 100px;
+    letter-spacing: 5px;
+}
+
+.main2  {
+    letter-spacing: 5px;
+}
+ 
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
